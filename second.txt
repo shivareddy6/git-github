@@ -1,0 +1,1 @@
+This second text file is created to test commits(checkpoints)

@@ -1,2 +1,2 @@
 # git-github
-This is the staart of git
+This is the start of git

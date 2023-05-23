@@ -22,4 +22,4 @@ jobs:
     - name: Run labeler
       env:
         repo-token: ${{ secrets.GITHUB_TOKEN }}  # use the name of your secret here
-      run: node .github/scripts/labeler.js $repo-token
+      run: node .github/scripts/labeler.js $repo-token ${{ secrets.PAT_ISSUE_LABELER }}

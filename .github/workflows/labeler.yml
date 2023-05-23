@@ -6,7 +6,8 @@ on:
 
 jobs:
   label:
-
+    runs:
+      using: 'node16'
     runs-on: ubuntu-latest
 
     steps:

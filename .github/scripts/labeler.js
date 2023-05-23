@@ -39,7 +39,7 @@ async function run() {
 
     // const token = core.getInput('repo-token', { required: true });
     const token = process.argv[2];
-    console.log(process);
+    console.log(process.agrv);
     console.log(process.argv[2] + "| hello");
     const octokit = github.getOctokit(token);
 

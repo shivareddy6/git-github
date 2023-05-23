@@ -1,13 +1,14 @@
 name: Issue Labeler
 
+runs:
+  using: 'node16'
+
 on:
   issues:
     types: [opened]
 
 jobs:
   label:
-    runs:
-      using: 'node16'
     runs-on: ubuntu-latest
 
     steps:

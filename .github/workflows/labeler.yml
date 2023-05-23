@@ -21,5 +21,5 @@ jobs:
         npm install compromise lodash
     - name: Run labeler
       env:
-        repo-token: ${{ secrets.PAT_ISSUE_LABELER }}  # use the name of your secret here
+        repo-token: ${{ secrets.GITHUB_TOKEN }}  # use the name of your secret here
       run: node .github/scripts/labeler.js $repo-token

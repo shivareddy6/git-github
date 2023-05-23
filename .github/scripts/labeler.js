@@ -39,7 +39,7 @@ async function run() {
 
     // const token = core.getInput('repo-token', { required: true });
     const token = process.argv[2];
-    console.log(token);
+    console.log(process);
     const octokit = github.getOctokit(token);
 
     let labelsToAdd = [];

@@ -1,0 +1,25 @@
+{
+  "name": "git-github",
+  "version": "1.0.0",
+  "description": "This is the start of git\r -SHANNU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivareddy6/git-github.git"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "compromise": "^13.11.4",
+    "lodash": "^4.17.21"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivareddy6/git-github/issues"
+  },
+  "homepage": "https://github.com/shivareddy6/git-github#readme"
+}

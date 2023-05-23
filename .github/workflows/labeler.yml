@@ -1,8 +1,5 @@
 name: Issue Labeler
 
-runs:
-  using: 'node16'
-
 on:
   issues:
     types: [opened]
